@@ -52,7 +52,7 @@ const IMAGES = [
 export default function Interests() {
   return (
     <div className="px-12 mt-8 ">
-      <p className="small-text ">What are your interests?</p>
+      <p className="small-text mb-6">What are your interests?</p>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-4">
         {IMAGES.map((image) => (
           <div
