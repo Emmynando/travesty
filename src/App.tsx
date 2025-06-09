@@ -8,7 +8,7 @@ import QuickLinks from "./components/QuickLinks";
 import Testimonials from "./components/Testimonials";
 
 function App() {
-  const [isModal, setIsModal] = useState(true);
+  const [isModal, setIsModal] = useState(false);
   return (
     <div>
       <div className="hidden md:block lg:block">

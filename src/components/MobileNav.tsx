@@ -30,7 +30,7 @@ export default function MobileNav({ onClick, isModal }: MobileNavProps) {
           </div>
         </div>
         {isModal && (
-          <div className="bg-white h-[30rem]">
+          <div className="bg-white h-[35rem]">
             <section>
               <ul className="flex flex-col gap-4">
                 <li className="text-[13px] text-pri-text">Camping Locations</li>
