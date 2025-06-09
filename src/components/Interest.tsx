@@ -51,7 +51,7 @@ const IMAGES = [
 
 export default function Interests() {
   return (
-    <div className="px-12 mt-8 ">
+    <div className="px-6 md:px-12 lg:px-12  mt-8 ">
       <p className="small-text mb-6">What are your interests?</p>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-4">
         {IMAGES.map((image) => (
@@ -63,7 +63,7 @@ export default function Interests() {
               backgroundPosition: "center",
             }}
             className={`w-full h-[15.6rem] bg-red-900 aspect-square flex justify-center items-center ${
-              image.toSpan ? "col-span-2" : ""
+              image.toSpan ? "md:col-span-2 lg:col-span-2" : ""
             }`}
           >
             <p className="font-didot text-2xl font-bold text-white">

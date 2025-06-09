@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="pt-8">
-      <section className="flex justify-between border-y border-[#E4E4E4] py-6 px-12 ">
+      <section className="flex flex-col md:flex-row lg:flex-row justify-between border-y border-[#E4E4E4] py-6 px-6 md:px-12 lg:px-12 ">
         <h3 className="text-[#30797C] text-2xl font-bold">Travelsy</h3>
         <div className="flex items-center gap-4">
           <img src={"./image/mpesa.png"} className="w-[2.1rem] h-[1.56rem]" />
@@ -12,7 +12,9 @@ export default function Footer() {
             src={"./image/mastercard.png"}
             className="w-[2.1rem] h-[1.68rem]"
           />
-          <select className="text-[13px] text-[#9B9B9B]">
+        </div>
+        <div className="">
+          <select className="text-[13px] text-[#9B9B9B] md:mr-4 lg:mr-4">
             <option>
               <span></span>
               <span>English (United States)</span>
@@ -26,7 +28,7 @@ export default function Footer() {
           </select>
         </div>
       </section>
-      <section className="flex justify-between items-center px-12 py-6">
+      <section className="flex flex-col md:flex-row lg:flex-row justify-between items-center px-6 md:px-12 lg:px-12 py-6 ">
         <div>
           <p className="text-xs text-[#333333]">
             Copyright © 2019 Travelsy Ltd. All rights reserved

@@ -2,29 +2,29 @@ import { FaAngleLeft, FaChevronRight } from "react-icons/fa6";
 import { LuSlash } from "react-icons/lu";
 export default function Testimonials() {
   return (
-    <div className="px-12 pt-8 bg-[#F8F8F8]">
+    <div className="px-6 md:px-12 lg:px-12  py-8 bg-[#F8F8F8]">
       <p className="small-text ">TESTIMONIALS</p>
-      <div className="grid grid-cols-3 gap-4">
-        <section>
+      <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-4 md:gap-12 lg:gap-16">
+        <section className="flex-1 flex flex-col pt-6 h-[19.8rem] justify-between">
           <div>
-            <h2 className="font-didot font-fold text-[50px]">
+            <h2 className="font-didot font-fold text-[50px] leading-[1.1]">
               What <br /> customers <br />
               <span className="text-[#FF5200]">say about us.</span>
             </h2>
           </div>
-          <div className="bg-white flex">
+          <div className="bg-white flex w-max px-2 py-4 gap-4">
             <span>
-              <FaAngleLeft />
+              <FaAngleLeft className="text-[#4A4A4A] w-[1.06] h-[0.56]" />
             </span>
             <span>
-              <LuSlash />
+              <LuSlash className="-rotate-25 text-[#D8D8D8]" />
             </span>
             <span>
-              <FaChevronRight />
+              <FaChevronRight className="text-[#9B9B9B] w-[1.06] h-[0.56]" />
             </span>
           </div>
         </section>
-        <section className="bg-white p-6 h-[19.8rem] flex flex-col justify-between">
+        <section className="bg-white p-6 h-[19.8rem] md:w-[19.87rem] lg:w-[19.87rem] flex flex-col justify-between">
           <div>
             <h4 className="text-base font-bold mb-4">Best User Experience</h4>
             <p className="text-[#4A4A4A] text-sm">
@@ -40,7 +40,7 @@ export default function Testimonials() {
             <p className="text-sm text-[#4A4A4A]">Derek Dunn</p>
           </div>
         </section>
-        <section className="bg-white p-6 h-[19.8rem] flex flex-col justify-between shadow-md">
+        <section className="bg-white p-6 h-[19.8rem] w-[19.87rem] flex flex-col justify-between shadow-md">
           <div>
             <h4 className="text-base font-bold mb-4">Friendly staff</h4>
             <p className="text-[#4A4A4A] text-sm">

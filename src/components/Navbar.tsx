@@ -1,5 +1,6 @@
 import { FaRegBookmark } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
+import { IoIosArrowDown } from "react-icons/io";
 // import profileIcon from "./image/Oval.png";
 export default function Navbar() {
   return (
@@ -30,6 +31,9 @@ export default function Navbar() {
           </span>
           <span className="size-[40px]">
             <img src={"./image/Oval.png"} />
+          </span>
+          <span className="w-[11px]">
+            <IoIosArrowDown />
           </span>
         </section>
       </div>

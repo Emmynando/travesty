@@ -2,7 +2,7 @@ import { company, contact, help, links, mailing } from "../constant";
 
 export default function QuickLinks() {
   return (
-    <div className="px-12 pt-8 grid md:grid-cols-3 lg:grid-cols-6">
+    <div className="px-6 md:px-12 lg:px-12  pt-8 grid md:grid-cols-3 lg:grid-cols-6">
       <section>
         <div className="mb-8">
           <h2 className="text-[#000000] text-[13px] font-bold mb-2">
@@ -40,7 +40,7 @@ export default function QuickLinks() {
         </ul>
       </section>
       <section>
-        <h2 className="text-[#000000] text-[13px] font-bold mb-2">
+        <h2 className="text-[#000000] text-[13px] font-bold mb-2 mt-4 md:mt-0 lg:mt-0">
           Other Services & Support
         </h2>
         <ul className="space-y-1">
@@ -52,7 +52,7 @@ export default function QuickLinks() {
         </ul>
       </section>
       <section>
-        <h2 className="text-[#000000] text-[13px] font-bold mb-2">
+        <h2 className="text-[#000000] text-[13px] font-bold mb-2 mt-4 md:mt-0 lg:mt-0">
           Quick Links
         </h2>
         <ul className="space-y-1">
@@ -64,7 +64,7 @@ export default function QuickLinks() {
         </ul>
       </section>
       <section className="col-span-2">
-        <h2 className="text-[#000000] text-[13px] font-bold mb-2">
+        <h2 className="text-[#000000] text-[13px] font-bold mb-2 mt-4 md:mt-0 lg:mt-0">
           Mailing List
         </h2>
         <ul className="space-y-1">

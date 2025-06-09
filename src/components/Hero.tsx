@@ -1,11 +1,11 @@
 export default function Hero() {
   return (
-    <div className="mt-8 space-y-12 px-12">
+    <div className="mt-8 space-y-12 px-6 md:px-12 lg:px-12 ">
       <section className="space-y-8">
-        <h2 className="font-didot text-[#000000] text-7xl w-[28.1rem] font-bold">
+        <h2 className="font-didot text-[#000000] text-5xl md:text-6xl lg:text-7xl md:w-[27.1rem] lg:w-[28.1rem] font-bold">
           Find An Experience
         </h2>
-        <p className="text-[13px] text-pri-text height-[20px] w-[28.1rem]">
+        <p className="text-[13px] text-pri-text height-[20px] md:w-[28.1rem] lg:w-[28.1rem]">
           To find you the best experiences, we will ask you a few questions to
           and show you experiences basd on your preferences.
         </p>
@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="height-[20px] text-pri-text text-[13px] mb-6">
           How much time do you have?
         </p>
-        <ul className="flex items-end gap-4 ">
+        <ul className="flex flex-col md:flex-row lg:flex-row md:items-end lg:items-end gap-4 ">
           <li className="small-text">
             {" "}
             <input
